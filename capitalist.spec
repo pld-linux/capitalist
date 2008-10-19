@@ -36,7 +36,7 @@ zainstalować pakiet kapitalist.
 
 %package doc
 Summary:	Documentaion for capitalist
-Summary(pl.UTF-8):	Dokumentacja kapitalist
+Summary(pl.UTF-8):	Dokumentacja capitalist
 Group:		Documentation
 
 %description doc
