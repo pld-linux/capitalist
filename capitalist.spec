@@ -9,6 +9,9 @@ Group:		Applications/Games/Boards
 Source0:	http://dl.sourceforge.net/capitalist/%{name}-%{version}.tar.gz
 # Source0-md5:	f93ee3ce9d29eba657e087762d8fd663
 Patch0:		%{name}-autotools.patch
+BuildRequires:	autoconf >= 2.58
+BuildRequires:	automake >= 1.4
+BuildRequires:	libtool
 URL:		http://kapitalist.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
