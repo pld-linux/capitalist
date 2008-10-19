@@ -1,5 +1,5 @@
 #
-Summary:	Server for the Monopoly®-like board game
+Summary:	Server for the Monopoly-like board game
 Summary(pl.UTF-8):	Serwer gry planszowej typu Monopoly®.
 Name:		capitalist
 Version:	0.3.1
@@ -16,7 +16,7 @@ URL:		http://kapitalist.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Kapitalist is a Monopoly®-like board game for 2-8 players. Walk around
+Kapitalist is a Monopoly-like board game for 2-8 players. Walk around
 the board, buy properties, receive rent from your competitors, try to
 get monopolies to build houses and hotels on them and finally be the
 richest on the board.
