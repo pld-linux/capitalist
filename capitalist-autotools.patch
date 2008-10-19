@@ -1,0 +1,12 @@
+diff -Naur capitalist-0.3.1.orig/configure.in capitalist-0.3.1/configure.in
+--- capitalist-0.3.1.orig/configure.in	2008-04-07 06:08:03.000000000 +0200
++++ capitalist-0.3.1/configure.in	2008-10-18 23:00:07.000000000 +0200
+@@ -5,7 +5,7 @@
+ 
+ 
+ AC_LANG_C
+-AC_PROG_CC
++AC_PROG_CXX
+ AM_PROG_LIBTOOL
+ 
+ AC_CHECK_FUNCS(gethostname select strerror strstr usleep)
