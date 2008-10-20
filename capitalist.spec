@@ -3,7 +3,7 @@ Summary:	Server for the Monopoly-like board game
 Summary(pl.UTF-8):	Serwer gry planszowej typu Monopoly®.
 Name:		capitalist
 Version:	0.3.1
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Applications/Games/Boards
 Source0:	http://dl.sourceforge.net/capitalist/%{name}-%{version}.tar.gz
