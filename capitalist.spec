@@ -1,6 +1,7 @@
 #
 Summary:	Server for the Monopoly-like board game
-Summary(pl.UTF-8):	Serwer gry planszowej typu Monopoly®.
+Summary(en.UTF-8):	Server for the Monopoly-like board game®
+Summary(pl.UTF-8):	Serwer gry planszowej typu Monopoly®
 Name:		capitalist
 Version:	0.3.1
 Release:	1
@@ -18,6 +19,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Kapitalist is a Monopoly-like board game for 2-8 players. Walk around
+the board, buy properties, receive rent from your competitors, try to
+get monopolies to build houses and hotels on them and finally be the
+richest on the board.
+
+This package contains a server. You should also install the kapitalist
+package.
+
+%description -l en.UTF-8
+Kapitalist is a Monopoly®-like board game for 2-8 players. Walk around
 the board, buy properties, receive rent from your competitors, try to
 get monopolies to build houses and hotels on them and finally be the
 richest on the board.
